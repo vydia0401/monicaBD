@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Monica BD
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
+</head>
+
+<body class="g-sidenav-show  bg-gray-200">
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+    <hr class="horizontal light mt-0 mb-2">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../pages/dashboard.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">dashboard</i>
+            </div>
+            <span class="nav-link-text ms-1">Home</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white active bg-gradient-primary" href="../pages/rtl.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
+            </div>
+            <span class="nav-link-text ms-1">Picture Gallery</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="../pages/profile.html">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">person</i>
+            </div>
+            <span class="nav-link-text ms-1">Words from Vydia</span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </aside>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+          <ul class="navbar-nav  justify-content-end">
+
+            <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <h2 style="margin-left: 3%">Picture Gallery</h2>
+    <p style="margin-left: 3%"> 我們真的快要一起玩遍世界了 XD...</p>
+    <div class="container-fluid py-4" style="display: flex; flex-wrap: wrap;">
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/Utah/JPEG image 9.jpeg" alt="image" onclick="nextImgUtah()" id= "UtahPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgUtah()">next</button>
+            <p style="margin-left: 3px">Utah</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/NY/JPEG image 17.jpeg" alt="image" onclick="nextImgNY()" id= "NYPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgNY()">next</button>
+            <p style="margin-left: 3px">New York</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/CA/JPEG image 1.jpeg" alt="image" onclick="nextImgCA()" id= "CAPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgCA()">next</button>
+            <p style="margin-left: 3px">California</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/Europe/JPEG image 47.jpeg" alt="image" onclick="nextImgEurope()" id= "EuropePhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgEurope()">next</button>
+            <p style="margin-left: 3px">Europe</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/Vancouver/JPEG image 8.jpeg" alt="image" onclick="nextImgVancouver()" id= "VancouverPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgVancouver()">next</button>
+            <p style="margin-left: 3px">Vancouver</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/CherryBlossom/JPEG image 15.jpeg" alt="image" onclick="nextImgCherryBlossom()" id= "CherryBlossomPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgCherryBlossom()">next</button>
+            <p style="margin-left: 3px">UW Cherry Blossom</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 mb-4" style="padding: 10px; height: 20px;">
+          <div class="card z-index-2 ">
+            <img src="../assets/img/Rand/JPEG image 2.jpeg" alt="image" onclick="nextImgRand()" id= "RandPhoto" class="w-100 border-radius-lg shadow-sm">
+            <button onclick="nextImgRand()">next</button>
+            <p style="margin-left: 3px">Day trips</p>
+          </div>
+        </div>
+    </div>
+  </main>
+
+  <!--   Core JS Files   -->
+  <script>
+    function nextImgCA() {
+    const imgLength = 21;
+      let CAPhotoImg = document.getElementById('CAPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/CA/JPEG image ' + rand +'.jpeg';
+      CAPhotoImg.src = randImgName;
+    }
+    function nextImgNY() {
+    const imgLength = 55;
+      let NYPhotoImg = document.getElementById('NYPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/NY/JPEG image ' + rand +'.jpeg';
+      NYPhotoImg.src = randImgName;
+    }
+    function nextImgCherryBlossom() {
+    const imgLength = 19;
+      let CherryBlossomImg = document.getElementById('CherryBlossomPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/CherryBlossom/JPEG image ' + rand +'.jpeg';
+      CherryBlossomImg.src = randImgName;
+    }
+    function nextImgUtah() {
+    const imgLength = 23;
+      let UtahPhotoImg = document.getElementById('UtahPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/Utah/JPEG image ' + rand +'.jpeg';
+      UtahPhotoImg.src = randImgName;
+    }
+    function nextImgVancouver() {
+    const imgLength = 18;
+      let VancouverPhotoImg = document.getElementById('VancouverPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/Vancouver/JPEG image ' + rand +'.jpeg';
+      VancouverPhotoImg.src = randImgName;
+    }
+    function nextImgRand() {
+    const imgLength = 48;
+      let RandPhotoImg = document.getElementById('RandPhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/Rand/JPEG image ' + rand +'.jpeg';
+      RandPhotoImg.src = randImgName;
+    }
+    function nextImgEurope() {
+    const imgLength = 57;
+      let EuropePhotoImg = document.getElementById('EuropePhoto');
+      let rand = Math.floor(Math.random() * imgLength);
+      let randImgName = '../assets/img/Europe/JPEG image ' + rand +'.jpeg';
+      EuropePhotoImg.src = randImgName;
+    }
+  </script>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-dashboard.min.js?v=3.0.4"></script>
+</body>
+
+</html>
+
+
+
+
